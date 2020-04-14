@@ -24,7 +24,7 @@ body {
 .menu-item {
   display: inline-block;
 }
-.container {
+.wrapper {
   margin: 0 auto;
   width: 901px;
 }
@@ -58,6 +58,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 135px;
 }
 .features-listitems {
   display: inline-block;
@@ -66,12 +67,12 @@ img {
 .marginrt {
   margin-right: 55px;
 }
-.lifestyle1 {
+/* .lifestyle1 {
   margin-top: 135px;
 }
 .lifestyle2 {
   margin-top: 141px;
-}
+} */
 .foot {
   margin-top: 41px;
   margin-bottom: 71px;
