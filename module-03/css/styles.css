@@ -59,10 +59,15 @@ img {
   padding: 0;
   list-style: none;
   margin-bottom: 135px;
+  font-size: 0;
 }
 .features-listitems {
   display: inline-block;
   width: 421px;
+  font-size: ;
+}
+.features-listitems p {
+  font-size: 14px;
 }
 .marginrt {
   margin-right: 55px;
