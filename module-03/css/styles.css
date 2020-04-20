@@ -9,7 +9,6 @@ body {
   padding: 0;
   list-style: none;
   text-align: center;
-  margin: 77px 0 0;
 }
 .site-navigation a {
   color: #626262;
@@ -26,10 +25,11 @@ body {
 }
 .wrapper {
   margin: 0 auto;
-  width: 901px;
+  width: 900px;
+  margin-top: 77px;
 }
 .life {
-  margin-right: 121px;
+  margin-right: 120px;
 }
 .photo {
   margin-right: 103px;
@@ -42,13 +42,14 @@ img {
   max-width: 100%;
   height: auto;
 }
-.lifestyle {
-  margin-top: 104px;
-}
 .lp {
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
   color: #b4ad9e;
+}
+.main {
+  margin-top: 104px;
+  margin-bottom: 50px;
 }
 .h2 {
   font-size: 30px;
@@ -61,16 +62,23 @@ img {
   margin-bottom: 135px;
   font-size: 0;
 }
+.features-list:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+.features-listitems:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
 .features-listitems {
   display: inline-block;
-  width: 421px;
-  font-size: ;
+  width: 420px;
+  margin-right: 60px;
+  margin-bottom: 135px;
+}
+.features-listitems:nth-of-type(2n) {
+  margin-right: 0;
 }
 .features-listitems p {
   font-size: 14px;
-}
-.marginrt {
-  margin-right: 55px;
 }
 /* .lifestyle1 {
   margin-top: 135px;
@@ -79,8 +87,7 @@ img {
   margin-top: 141px;
 } */
 .foot {
-  margin-top: 41px;
-  margin-bottom: 71px;
+  margin-bottom: 70px;
 }
 .button:hover {
   color: #626262;
